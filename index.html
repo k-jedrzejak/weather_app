@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="https://kit.fontawesome.com/b85b88bb52.js" crossorigin="anonymous"></script>
+
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container center">
+        <h1 class="center"> weather</h1>
+
+        <div class="weather center">
+            <div class="weather__own">
+                <div class="location">your location</div>
+                <div class="icon"></div>
+                <div class="details">
+                    <div class="details__temp"><div class="kgk"></div></div>
+                    <div class="details__tempfeel"></div>
+                    <div class="details__desc"></div>
+                    <div class="details__humidity"></div>
+                </div>
+            </div>
+
+            <div class="weather__another">
+                <div class="weather__another--title center">Check weather in another city</div>
+                <form>
+                    <input type="text" class="input" placeholder="add location...">
+                    <button type="submit" class="btn"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="sun none"></div>
+        <div class="rain storm none"></div>
+
+
+    </div>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
