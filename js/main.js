@@ -63,7 +63,7 @@ window.addEventListener('load', () => {
             location.textContent = city;
             desc.textContent = descript;
             humidity.textContent =`Humidity: ${hum}%`
-            weatherIcon.innerHTML =`<img src="http://openweathermap.org/img/wn/${icon}@2x.png">`
+            weatherIcon.innerHTML =`<img src="https://cors-everywhere.herokuapp.com/http://openweathermap.org/img/wn/${icon}@2x.png">`
 
             changeBg();
 
@@ -79,7 +79,7 @@ window.addEventListener('load', () => {
            const searchCity = input.value;
            console.log(searchCity);
 
-           const api2 = `https://api.openweathermap.org/data/2.5/weather?q=${searchCity}&appid=daaf2b14f9354d96e353b3886dba08d4`;
+           const api2 = `https://cors-everywhere.herokuapp.com/http://cors-everywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${searchCity}&appid=daaf2b14f9354d96e353b3886dba08d4`;
            
            console.log(api2);
 
@@ -102,7 +102,7 @@ window.addEventListener('load', () => {
                     location.textContent = city;
                     desc.textContent = descript;
                     humidity.textContent =`Humidity: ${hum}%`;
-                    weatherIcon.innerHTML =`<img src="http://openweathermap.org/img/wn/${icon}@2x.png">`;
+                    weatherIcon.innerHTML =`<img src="https://cors-everywhere.herokuapp.com/http://openweathermap.org/img/wn/${icon}@2x.png">`;
 
                     changeBg();
                 });     
