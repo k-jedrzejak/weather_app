@@ -63,7 +63,7 @@ window.addEventListener('load', () => {
             location.textContent = city;
             desc.textContent = descript;
             humidity.textContent =`Humidity: ${hum}%`
-            weatherIcon.innerHTML =`<img src="https://cors-everywhere.herokuapp.com/http://openweathermap.org/img/wn/${icon}@2x.png">`
+            weatherIcon.innerHTML =`<img src="http://openweathermap.org/img/wn/${icon}@2x.png">`
 
             changeBg();
 
@@ -102,7 +102,7 @@ window.addEventListener('load', () => {
                     location.textContent = city;
                     desc.textContent = descript;
                     humidity.textContent =`Humidity: ${hum}%`;
-                    weatherIcon.innerHTML =`<img src="https://cors-everywhere.herokuapp.com/http://openweathermap.org/img/wn/${icon}@2x.png">`;
+                    weatherIcon.innerHTML =`<img src="http://openweathermap.org/img/wn/${icon}@2x.png">`;
 
                     changeBg();
                 });     
